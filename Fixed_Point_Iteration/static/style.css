@@ -1,0 +1,51 @@
+
+        /* CSS style definitions */
+        .accordion {
+            background-color: #7e117c;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            text-align: center; 
+            font-size: 1.2em; 
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        .accordion:hover {
+            background-color: #555;
+        }
+
+        .panel {
+            display: none;
+            padding: 10px;
+            background-color: #f1f1f1;
+            width: 100%;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .panel-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #resultTitle {
+            margin-top: 20px;
+            font-size: 1.5em; 
+            text-align: center; 
+            font-weight: bold;
+        }
+
+        #result,
+        #iterationsList,
+        #graphImage,
+        #tableDiv,
+        #iterationsTitle,
+        #graphTitle,
+        #tableTitle {
+            margin-top: 20px;
+        }
+   
